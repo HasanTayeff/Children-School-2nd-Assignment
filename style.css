@@ -7,6 +7,35 @@
 }
 
 /* Shared Style */
+.black{
+    font-size: 1.5em;
+    color: black;
+}
+.black1{
+    color: rgba(128, 128, 128, 1);
+    font-size: 0.9em;
+    font-weight: 500;
+
+
+}
+.all-h1{
+    font-size: 3.5em;
+    font-weight: bold;
+
+}
+
+.all-h2{
+    font-size: 2.8em;
+    font-weight: bold;
+    color: black;
+
+}
+.all-h4{
+    font-size: 1.5em;
+    font-weight: bold;
+
+
+}
 
 .menu-display-none, #hr-line-display-none{
     display: none;
@@ -150,12 +179,12 @@
 } 
 .banner-heading{
     /* max-width: 600px; */
-    width: 43%;
+    width: 50%;
 
 
 }
 .width-h1{
-    /* max-width: 360px; */
+    max-width: 577px;
 }
 .empower{
     color: cadetblue;
@@ -182,10 +211,107 @@
 
 .banner-img{
     width: 40%;
-    
-    
+}
+
+/* Main Area styles. It's divided into two parts: Main Area 1 and Main Area 2 */
+
+
+/* Main Area 1  */
+
+.main-area-bg{
+    background-image: url(assets/bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
 
 }
+.arrow-display-flex{
+    max-width: 150px;
+    display: flex;
+    gap: 10px;
+
+}
+.arrow-center{
+    display: flex;
+    justify-content: center;
+    margin-top: 70px;
+}
+.circle{
+    width: 50px;
+    height: 50px;
+    background-color: orange;
+    border-radius: 40px;
+
+
+}
+
+.main-area{
+    margin-top: 80px;
+}
+
+.main-area1{
+    text-align: center;
+    /* margin-top: 70px; */
+    max-width: 1200px;
+    margin: auto;
+    text-align: center;
+
+}
+.mainA-heading-margin{
+    margin-bottom: 70px;
+    
+}
+
+.box{
+    width: 30%;
+    /* border: 1px solid blue; */
+    border-radius: 10px;
+    box-shadow: inset 0px 5px 5px 3px rgb(185, 185, 185);
+
+
+}
+.box-img-size{
+   width: 150px;
+   height: 150px;
+
+}
+.box-items{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    padding: 40px 30px;
+
+}
+.read-more{
+    padding: 5px;
+    border: none;
+    background-color: #ffffff;
+    font-size: 1.5em;
+
+
+}
+#read-more1{
+    color: darkcyan;
+
+}
+
+#read-more2{
+    color: rgb(233, 218, 17);
+    
+}
+#read-more3{
+    color: rgb(243, 41, 243);
+    
+}
+
+
+
+
+
+
+
+/* Main Area 2  */
 
 
 
@@ -194,6 +320,15 @@
 
 @media screen and (max-width:576px) {
 
+
+    /* For Margin */
+    .mainA-heading-margin{
+        margin-bottom: 30px;
+
+    }
+    .main-area{
+        margin-top: 50px;
+    }
     .header-area{
         /* width: 100%; */
 
@@ -209,6 +344,10 @@
     }
     .menu-display-none, #hr-line-display-none{
         display: block;
+        width: 100%;
+    }
+    .arrow-display-none{
+        display: none;
     }
     
     .nav-right{
@@ -228,6 +367,27 @@
         gap: 20px;
 
     }
+    .all-h1{
+        font-size: 2em;
+        font-weight: bold;
+    
+    }
+    .all-h2{
+        font-size: 1.8em;
+  
+    
+    }
+    .all-h4{
+        font-size: 1.1em;
+    }
+
+    .black{
+        font-size: 0.9em;
+        color: black;
+    }
+    /* .black1{
+        font-size: 0.7em;
+    } */
     .width-h1{
         
     }
