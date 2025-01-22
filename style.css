@@ -549,11 +549,12 @@
     flex-direction: column;
     gap: 40px;
 }
-.footer3-item{
+.footer3-items{
     display: flex;
     flex-direction: column;
     gap: 40px;
 }
+
 
 
 
@@ -701,6 +702,36 @@
     }
     .all-h5{
         font-size: 0.6em;
+    }
+
+
+    /* Footer Area */
+
+    .footer{
+        height: 700px;
+    }
+    .footer-area-width{
+        width: 90%;
+
+        margin: auto;
+
+    }
+    .footer-display-flex{
+        flex-direction: column;
+        gap: 40px;
+        
+        
+    }
+    .footer1{
+        max-width: 400px;
+
+    }
+    .footer1, .footer2, .footer3{
+        justify-content: flex-start;
+    }
+
+    .footer1, .footer2-items, .footer3-items{
+        gap: 15px;
     }
  
 }    
