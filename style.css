@@ -284,8 +284,23 @@
     width: 30%;
     /* border: 1px solid blue; */
     border-radius: 10px;
-    box-shadow: inset 0px 5px 5px 3px rgb(185, 185, 185);
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.1);
+    /* background: radial-gradient(circle, rgba(186, 104, 200, 0.3), rgba(128, 90, 213, 0.1)); */
+  
 
+}
+#box1{
+    background-image: linear-gradient(to bottom, rgba(73, 119, 38, 0.3) 10%, #ffffff 40%);
+
+}
+#box2{
+    background-image: linear-gradient(to bottom, #f5c5c8 10%, #ffffff 40%);
+
+
+}
+#box3{
+    background: linear-gradient(to bottom, #beb6e0 10%, #ffffff 40%);
+    
 
 }
 .box-id{
@@ -320,11 +335,11 @@
 }
 
 #read-more2{
-    color: rgb(233, 218, 17);
+    color: #FF8C94;
     
 }
 #read-more3{
-    color: rgb(243, 41, 243);
+    color: #C4B5FD;
     
 }
 
@@ -337,11 +352,17 @@
 /* Main Area 2  */
 
 .main-area-bg{
+    
     margin-top: 70px;
-    background-image: url(assets/bg.png);
+    background: url(assets/bg.png);
     background-repeat: no-repeat;
     background-size: cover;
 
+
+}
+.color-bg{
+    background: linear-gradient(to top, #bdf3af 10%, #ffffff 90%), url(assets/bg.png);
+    
 }
  
 .story-area-width{
@@ -369,13 +390,14 @@
 
 }
 .box-part-1{
+    background-color: white;
     width: 45%;
-    background-color: rgb(229, 241, 118);
     border-radius: 15px;
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 30px;
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.1);
    
 
 
@@ -385,17 +407,19 @@
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 15px;
+    
 
 }
 
 
 .story-box{
-    background-color: cornsilk;
+    background-color: white;
     border-radius: 15px;
     /* text-align: center; */
     display: flex;
     flex-direction: column;
     gap: 40px;
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.1);
 
 
 }
@@ -473,12 +497,15 @@
 
 
 }
+#view-all{
+    margin-bottom: 70px;
+}
 
 
 /* Footer Area Styles */
 
 .footer{
-    margin-top: 70px;
+    /* margin-top: 70px; */
     background-color: rgba(1, 172, 253, 1);
     color: #ffffff;
     height: 450px;
@@ -667,13 +694,10 @@
     }
 
     .story-heading{
-       
-    
+        margin-top: 30px;
 
     }
 
-    
- 
     .box-container{
         flex-direction: column;
     }
@@ -708,6 +732,7 @@
     /* Footer Area */
 
     .footer{
+        margin-top: 110px;
         height: 700px;
     }
     .footer-area-width{
