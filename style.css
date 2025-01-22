@@ -36,6 +36,12 @@
 
 
 }
+.all-h5{
+    font-size: 1em;
+    font-weight: 700;
+
+
+}
 
 .menu-display-none, #hr-line-display-none{
     display: none;
@@ -330,6 +336,147 @@
 
 /* Main Area 2  */
 
+.main-area-bg{
+    margin-top: 70px;
+    background-image: url(assets/bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+ 
+.story-area-width{
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.story-heading{
+    
+
+}
+.box-container{
+    display: flex;
+    height: 600px;
+    gap: 15px;
+    
+    
+
+}
+.box-part-1{
+    width: 45%;
+    background-color: rgb(229, 241, 118);
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+   
+
+
+}
+.box-part-2{
+    width: 53%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px;
+
+}
+
+
+.story-box{
+    background-color: cornsilk;
+    border-radius: 15px;
+    /* text-align: center; */
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+
+
+}
+#storybox1{
+
+    
+}
+#storybox2{
+    
+}
+.img-radius{
+    /* position: relative; */
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    width: 100%;
+
+
+}
+
+.date-btn{
+    position: absolute;
+    text-align: center;
+    padding: 12px 20px;
+    border-radius: 20px;
+    color: white;
+    width: 150px;
+    margin-top: -25px;
+    margin-left: 30px;
+    
+    
+
+
+}
+.contents{
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    
+
+}
+.content{
+    padding: 0px 18px;
+
+}
+
+
+#date-btn0{
+    background-color: rgb(245, 102, 178);
+
+
+}
+#date-btn1{
+    background-color: rgb(48, 241, 232);
+
+
+}
+#date-btn2{
+    background-color: rgb(240, 144, 20);
+
+
+}
+#date-btn3{
+    background-color: rgb(10, 92, 10);
+
+
+}
+#date-btn4{
+    background-color: rgb(142, 89, 247);
+
+
+}
+/* .for-padding{
+    padding: 0px 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+} */
+
+
+
 
 
 
@@ -429,4 +576,51 @@
         margin: auto;
        
     }
-}
+
+    /* Main Area 2 */
+
+    .story-area-width{
+        width: 90%;
+        height: 400px;
+        margin: auto;
+    }
+
+    .story-heading{
+       
+    
+
+    }
+
+    
+ 
+    .box-container{
+        flex-direction: column;
+    }
+    .box-part-1{
+        display: none;
+    }
+    .box-part-2{
+        width: 90%;
+        margin: auto;
+    }
+    .date-btn{
+        max-width: 80px;
+        max-height: 15px;
+        font-size: 9px;
+        padding: 6px 2px;
+        margin-top: -16px;
+
+    }
+    .content{
+        padding: 13px;
+   
+    
+    }
+    .story-box{
+        gap: 10px;
+    }
+    .all-h5{
+        font-size: 0.6em;
+    }
+ 
+}    
