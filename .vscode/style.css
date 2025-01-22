@@ -473,87 +473,12 @@
 
 
 }
-
-
-/* Footer Area Styles */
-
-.footer{
-    margin-top: 70px;
-    background-color: rgba(1, 172, 253, 1);
-    color: #ffffff;
-    height: 450px;
-    display: flex;
-    align-items: center;
-    
-}
-.footer-h2{
-    font-size: 2.6em;
-    font-weight: 700;
-}
-.footer-h4{
-    font-size: 1.5em;
-    font-weight: 700;
-
-}
-
-
-.footer-area-width{
-    max-width: 1200px;
-    margin: auto;
-
-}
-.footer-display-flex{
-    display: flex;
-    
-}
-
-.footer1, .footer2, .footer3{
-    flex: 1;
-
-}
-
-.footer1{
+/* .for-padding{
+    padding: 0px 30px;
     display: flex;
     flex-direction: column;
     gap: 40px;
-}
-.footer2{
-    display: flex;
-    justify-content: center;
-}
-
-.footer3{
-    display: flex;
-    justify-content: right;
-    
-}
-
-.logo-kids-flex{
-    display: flex;
-    gap: 5px;
-    align-items: center;
-}
-.footer-ul{
-    list-style: none;
-    
-    
-}
-.footer-ul> li{
-    margin-bottom: 15px;
-}
-
-.footer2-items{
-    width: 200px;
-    text-align: left;
-    display: flex;
-    flex-direction: column;
-    gap: 40px;
-}
-.footer3-item{
-    display: flex;
-    flex-direction: column;
-    gap: 40px;
-}
+} */
 
 
 
@@ -660,7 +585,7 @@
     /* Main Area 2 */
 
     .story-area-width{
-       width: 90%;
+        width: 90%;
         height: 400px;
         margin: auto;
     }
@@ -680,7 +605,7 @@
         display: none;
     }
     .box-part-2{
-        width: 100%;
+        width: 90%;
         margin: auto;
     }
     .date-btn{
